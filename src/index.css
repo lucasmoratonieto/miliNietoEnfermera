@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities {
+  .bg-size-50 {
+    background-size: 50% 100%;
+  }
+}
