@@ -2,6 +2,7 @@ import './App.css'
 import Header from './sections/Header'
 import Intro from './sections/Intro'
 import Cards from './sections/Cards'
+import WhoAmI from './sections/WhoAmI'
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
       <Header/>
       <Intro/>
       <Cards/>
-      <div>Quien soy?</div>
+      <WhoAmI/>
       <div>Que cuidados hago?</div>
       <div>Reviews de personas</div>
       <div>contactos</div>
