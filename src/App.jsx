@@ -3,6 +3,7 @@ import Header from './sections/Header'
 import Intro from './sections/Intro'
 import Cards from './sections/Cards'
 import WhoAmI from './sections/WhoAmI'
+import Cuidados from './sections/Cuidados'
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
       <Intro/>
       <Cards/>
       <WhoAmI/>
-      <div>Que cuidados hago?</div>
+      <Cuidados/>
       <div>Reviews de personas</div>
       <div>contactos</div>
       <div>Pie de páginas</div>

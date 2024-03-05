@@ -1,10 +1,3 @@
-// import {
-//     miliOperando
-// }from './images/miliOperando.png'
-
-
-
-
 
 export const miliOperando = [
     {

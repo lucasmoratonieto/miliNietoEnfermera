@@ -32,7 +32,7 @@ export const cards = [
         number: '1.',
         title: 'Nos adaptamos a tu situación',
         text: 'Cada paciente es diferente, nos adaptamos a las necesidades de cada uno. Antes de la primera visita, es necesario una llamada para conocer las necesidades personales',
-        color: "bg-red-500",
+
     },
     {
         number: '2.',
@@ -48,5 +48,39 @@ export const cards = [
         number: '4.',
         title: 'Inmediatez y confianza',
         text: 'No hay nada mejor que un cliente satisfecho, disponibilidad y confianza es nuestro objetivo primordial'
+    },
+]
+
+
+export const cuidados =[
+    {
+
+        number: '1.',
+        text: 'Extracción de analíticas, (sanitas, adeslas, mapfre, etc)',
+
+    },
+    {
+
+        number: '2.',
+        text: 'Administración de tratamientos prescritos vía oral, subcutánea  intramuscular administración vacunas',
+
+    },
+    {
+
+        number: '3.',
+        text: 'Formación a cuidadores para llevar los tratamientos de la forma más eficiente posible',
+
+    },
+    {
+
+        number: '4.',
+        text: 'Test de antígenos y PCR ',
+
+    },
+    {
+
+        number: '5.',
+        text: 'Toma y monitorización de constantes y realización y seguimiento de controles de glucemia',
+
     },
 ]
