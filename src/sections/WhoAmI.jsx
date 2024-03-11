@@ -14,7 +14,7 @@ function WhoAmI() {
             </div>
             <div className="flex justify-center lg:mr-10 max-lg:mb-10">
                 {miliDescription.map((imagen)=>(
-                    <img src={imagen.src} alt={imagen.alt} key={imagen.alt} className=" min-w-[350px] "/>
+                    <img src={imagen.src} alt={imagen.alt} key={imagen.alt} className=" min-w-[350px] rounded-2xl"/>
                 ))}
             </div>
     </section>

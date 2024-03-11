@@ -4,6 +4,7 @@ import Intro from './sections/Intro'
 import Cards from './sections/Cards'
 import WhoAmI from './sections/WhoAmI'
 import Cuidados from './sections/Cuidados'
+import Reviews from './sections/Reviews'
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
       <Cards/>
       <WhoAmI/>
       <Cuidados/>
-      <div>Reviews de personas</div>
+      <Reviews/>
       <div>contactos</div>
       <div>Pie de páginas</div>
     </>

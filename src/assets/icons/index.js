@@ -1,9 +1,11 @@
 import whatsApp from './whatsApp.svg'
 import instagram from './instagram.svg'
+import quotation from './quotation.svg'
 
 
 
-export {
+export  {
     whatsApp,
-    instagram
+    instagram,
+    quotation
 }
