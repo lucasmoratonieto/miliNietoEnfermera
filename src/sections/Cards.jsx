@@ -6,7 +6,7 @@ function Cards() {
     const roundebBox = ["rounded-bl-2xl", "", "", "rounded-br-2xl"]
     // const roundeBg = ["rounded-2xl", ""];
   return (
-    <main className="">
+    <main id="porqueMili" className=" font-montserrat">
         <ul className=" grid grid-cols-4 max-lg:grid-cols-2 max-sm:grid-cols-1 ">
             {cards.map((card, index) =>(
                 <li key={card.number} className={`${colors[index]} ${roundebBox[index]} max-sm:rounded-2xl max-sm:mt-4 `}>

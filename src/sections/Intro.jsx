@@ -3,7 +3,7 @@ import {miliOperando} from '../assets/images/index'
 
 function Intro() {
   return (
-    <>
+    <section id='inicio' className=' font-montserrat'>
     <main className="flex items-center justify-center mt-10 max-md:flex max-md:flex-col gap-4 pb-20 pt-10 bg-[#e8eff1] rounded-t-2xl max-sm:rounded-b-2xl">
         <div className=" z-10 relative align-middle justify-center sm:whitespace-nowrap text-gray-800">
             <h1 className=" text-9xl font-semibold font-Arial max-lg:text-8xl mb-10 max-md:mb-5">Mili Nieto</h1>
@@ -19,7 +19,7 @@ function Intro() {
         </div>
     </main>
         
-    </>
+    </section>
   )
 }
 

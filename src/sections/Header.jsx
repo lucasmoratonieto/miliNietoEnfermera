@@ -3,7 +3,7 @@ import { navLinks } from '../constants/index'
 
 function Header() {
   return (
-    <header className=' flex justify-center' >
+    <header className=' flex justify-center font-palanquin' >
         <div className=''>
             <ul className=" flex flex-row content-center justify-center items-center gap-2 lg:gap-8 xl:gap-20 text-slate-700 ">
               {navLinks.map((navLink) =>(

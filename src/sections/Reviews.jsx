@@ -14,7 +14,7 @@ function Reviews() {
     }, [])
 
   return (
-    <div className=" bg-[#ffe2e9] h-96  flex justify-center items-center rounded-2xl">
+    <div className=" bg-[#ffe2e9] h-96  flex justify-center items-center rounded-2xl font-palanquin">
         {/* <img src={quotation} alt="quotation marks" className="w-10 transform scale-y-[-1] scale-x-[-1] absolute"/> */}
         <div className={` ${showText ? 'block' : 'hidden'} text-4xl max-sm:text-3xl justify-center max-w-[35rem] mx-5`}>PCR con entrega en el mismo día, fundamental si te tienes que ir de viaje y lo necesitas rápido</div>
         <div className={` ${showText ? 'hidden' : 'block'} text-4xl max-sm:text-3xl justify-center max-w-[35rem] mx-5`}>Siempre agradecido a Mili por su apoyo en los momentos más complicados y su delicadeza en los pinchazos</div>

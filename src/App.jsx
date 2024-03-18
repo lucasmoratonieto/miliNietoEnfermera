@@ -5,6 +5,7 @@ import Cards from './sections/Cards'
 import WhoAmI from './sections/WhoAmI'
 import Cuidados from './sections/Cuidados'
 import Reviews from './sections/Reviews'
+import Contact from './sections/Contact'
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
       <WhoAmI/>
       <Cuidados/>
       <Reviews/>
-      <div>contactos</div>
+      <Contact/>
       <div>Pie de páginas</div>
     </>
   )
