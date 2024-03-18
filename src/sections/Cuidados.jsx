@@ -1,5 +1,6 @@
 import { cuidados } from "../constants"
 
+
 function Cuidados() {
   return (
     <section id="servicios" className=" flex flex-col my-10 gap-10 items-center font-palanquin">
@@ -9,13 +10,14 @@ function Cuidados() {
             {cuidados.map((cuidado) => (
                 <li key={cuidado} className="p-5 rounded-3xl min-w-40 shadow-3xl shadow-slate-200 ">
                     <div className="flex flex-col">
-                        <h1 className="text-3xl">{cuidado.number}</h1>
-                        <p className=" text-xl h-60 max-sm:h-32 flex lg:items-center items-center justify-center">{cuidado.text}</p>
+                        {/* <h1 className="text-3xl">{cuidado.number}</h1> */}
+                        <img src={cuidado.icon} alt="" />
+                        <p className=" text-xl h-40 max-sm:h-32 flex lg:items-center items-center justify-center">{cuidado.text}</p>
                     </div>
                 </li>
             ))}
         </ul>
-        <button>Leer más</button>
+        <a href="miliNietoEnfermera/moreServices/">Leer más</a>
     </section>
   )
 }

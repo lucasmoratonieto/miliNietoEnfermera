@@ -1,6 +1,11 @@
 import{
     whatsApp,
-    instagram
+    instagram,
+    analiticas,
+    tratamientos,
+    formacion,
+    pcr,
+    monitorizacion
 } from "../assets/icons";
 
 export const navLinks = [
@@ -56,30 +61,35 @@ export const cuidados =[
     {
 
         number: '1.',
+        icon: analiticas,
         text: 'Extracción de analíticas, (sanitas, adeslas, mapfre, etc)',
 
     },
     {
 
         number: '2.',
+        icon: tratamientos,
         text: 'Administración de tratamientos prescritos vía oral, subcutánea  intramuscular administración vacunas',
 
     },
     {
 
         number: '3.',
+        icon:formacion,
         text: 'Formación a cuidadores para llevar los tratamientos de la forma más eficiente posible',
 
     },
     {
 
         number: '4.',
+        icon:pcr,
         text: 'Test de antígenos y PCR ',
 
     },
     {
 
         number: '5.',
+        icon: monitorizacion,
         text: 'Toma y monitorización de constantes y realización y seguimiento de controles de glucemia',
 
     },
