@@ -18,6 +18,16 @@ export const navLinks = [
     { href: "#whatsApp", label: "+34 677551276" },
   ];
 
+  export const navLinksNotPrincipal = [
+    { href: "/miliNietoEnfermera#inicio", label: "Inicio" },
+    { href: "/miliNietoEnfermera#precio", label: "Precio" },
+    { href: "/miliNietoEnfermera#servicios", label: "Servicios" },
+    { href: "/miliNietoEnfermera#porqueMili", label: "¿Por qué Mili?" },
+    { href: "/miliNietoEnfermera#resultados", label: "Resultados" },
+    { href: "/miliNietoEnfermera#contactos", label: "Contactos" },
+    { href: "/miliNietoEnfermera#whatsApp", label: "+34 677551276" },
+  ];
+
 
 export const socialMedia = [
     {

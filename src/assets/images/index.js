@@ -17,3 +17,13 @@ export const miliDescription = [
     }
 
 ]
+
+
+export const miliCholo = [
+
+    {
+        src:'https://static.wixstatic.com/media/ae3d5a_8beafc1c4a42432989c3fc54b73bdf3b~mv2.jpg/v1/crop/x_189,y_0,w_1192,h_806/fill/w_556,h_376,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/PHOTO-2022-10-18-18-15-07_edited.jpg',
+        alt: 'Imagen de mili pinchando al Cholo'
+    }
+
+]

@@ -2,6 +2,10 @@ import { cuidados } from "../constants"
 
 
 function Cuidados() {
+    const navigation =[
+        // {name:'Inicio', href:'/',current:true},
+        {name:'Leer más', href:'/miliNietoEnfermera/MoreServices',current:false}
+    ]
   return (
     <section id="servicios" className=" flex flex-col my-10 gap-10 items-center font-palanquin">
         <h1 className=" text-5xl font-montserrat">¿Qué tipo de cuidados hago?</h1>
@@ -17,8 +21,21 @@ function Cuidados() {
                 </li>
             ))}
         </ul>
-        <a href="miliNietoEnfermera/moreServices/">Leer más</a>
+        {/* <a href="miliNietoEnfermera/moreServices/">Leer más</a> */}
+                  <div className="">
+                    {navigation.map((item) => (
+                      <a
+                        key={item.name}
+                        href={item.href}
+                      >
+                        {item.name}
+                      </a>
+                    ))}
+                  </div>
+
+
     </section>
+    
   )
 }
 
