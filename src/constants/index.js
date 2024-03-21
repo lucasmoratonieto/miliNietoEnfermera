@@ -104,3 +104,46 @@ export const cuidados =[
 
     },
 ]
+
+
+
+
+export const masServicios =[
+    {
+
+        text: 'Administración de tratamientos prescritos, por vía oral, intravenosa, subcutánea o intramuscular',
+
+    },
+    {
+
+        text: 'Formación a cuidadores habituales sobre dichos tratamientos, y realización de un plan personalizado de adherencia al tratamiento',
+
+    },
+    {
+
+        text: 'Extracción de analíticas, controles de anticoagulación y realización de PCR',
+
+    },
+    {
+
+        text: 'Toma y monitorización de constantes y realización y seguimiento de controles de glucemia',
+
+    },
+    {
+
+        text: 'Valoración global del paciente, consejo nutricional, educación sanitaria.',
+
+    },
+    {
+
+        text: 'Acompañamiento a consultas médicas o tratamientos hospitalarios ambulantes (diálisis, quimioterapia…)',
+
+    },
+    {
+
+        text: 'Valoración, cura y seguimiento de heridas quirúrgicas, retirada de puntos y drenajes.',
+
+    },
+
+    
+]
