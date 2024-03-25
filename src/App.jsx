@@ -8,6 +8,7 @@ import Cuidados from './sections/Cuidados'
 import Reviews from './sections/Reviews'
 import Contact from './sections/Contact'
 import MoreServices from './pages/MoreServices/MoreServices'
+import Footer from './components/header/Footer'
 
 function App() {
 
@@ -29,7 +30,7 @@ function App() {
           <Route path='/miliNietoEnfermera/MoreServices' element={<MoreServices/>}/>
           
         </Routes>
-        <div>Pie de páginas</div>
+          <Footer/>
       </Router>
     </>
   )

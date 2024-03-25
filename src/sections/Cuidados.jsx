@@ -16,13 +16,13 @@ function Cuidados() {
                     <div className="flex flex-col">
                         {/* <h1 className="text-3xl">{cuidado.number}</h1> */}
                         <img src={cuidado.icon} alt="" />
-                        <p className=" text-xl h-40 max-sm:h-32 flex lg:items-center items-center justify-center">{cuidado.text}</p>
+                        <p className=" text-xl h-48 max-sm:h-32 flex lg:items-center items-center justify-center">{cuidado.text}</p>
                     </div>
                 </li>
             ))}
         </ul>
         {/* <a href="miliNietoEnfermera/moreServices/">Leer más</a> */}
-                  <div className="">
+                  <div className=" ">
                     {navigation.map((item) => (
                       <a
                         key={item.name}
