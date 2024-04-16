@@ -4,9 +4,9 @@ import { masServicios } from "../../constants"
 
 function 	moreServices() {
   return (
-    <section>
+    <section className="">
       <HeaderNotPrincipal/>
-      <div className="flex flex-col items-center mt-10 max-md:flex max-md:flex-col gap-4 pb-20 pt-10  rounded-t-2xl max-sm:rounded-b-2xl">
+      <div className="flex flex-col items-center mt-10 max-md:flex max-md:flex-col gap-4  pt-10  rounded-t-2xl max-sm:rounded-b-2xl ">
         <h1 className=" text-4xl font-bold font-montserrat">
           Servicios principales y a medida
         </h1>

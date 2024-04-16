@@ -28,4 +28,9 @@ export const miliCholo = [
 
 ]
 
+import miliLogo from './miliNietoEnfermeraLogo.jpg'
+
+export {
+    miliLogo
+}
 

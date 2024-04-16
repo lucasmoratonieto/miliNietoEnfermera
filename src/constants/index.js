@@ -18,6 +18,12 @@ export const navLinks = [
     { href: "#whatsApp", label: "+34 677551276" },
   ];
 
+  export const contacts = [
+    { href: "#", label: "Email", text:'nietodelacierva@gmail.com' },
+    { href: "#", label: "Teléfono", text: '+34677551276' }
+
+  ];
+
   export const navLinksNotPrincipal = [
     { href: "/miliNietoEnfermera#inicio", label: "Inicio" },
     { href: "/miliNietoEnfermera#precio", label: "Precio" },

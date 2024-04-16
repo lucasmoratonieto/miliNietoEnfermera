@@ -13,7 +13,7 @@ import Footer from './components/header/Footer'
 function App() {
 
   return (
-    <>
+    <div className=' '>
     <Router>
         <Routes>
           <Route exact path ='/miliNietoEnfermera'element={
@@ -27,12 +27,12 @@ function App() {
             <Contact/>
           </>
           }/>
-          <Route path='/miliNietoEnfermera/MoreServices' element={<MoreServices/>}/>
+          <Route path='/miliNietoEnfermera/MoreServices' element={<MoreServices/>} />
           
         </Routes>
-          <Footer/>
-      </Router>
-    </>
+      <Footer/>
+    </Router>
+    </div>
   )
 }
 
