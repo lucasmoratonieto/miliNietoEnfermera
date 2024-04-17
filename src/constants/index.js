@@ -20,7 +20,7 @@ export const navLinks = [
 
   export const contacts = [
     { href: "#", label: "Email", text:'nietodelacierva@gmail.com' },
-    { href: "#", label: "Teléfono", text: '+34677551276' }
+    { href: "#", label: "Teléfono", text: '+34 677551276' }
 
   ];
 

@@ -30,7 +30,8 @@ function App() {
           <Route path='/miliNietoEnfermera/MoreServices' element={<MoreServices/>} />
           
         </Routes>
-      <Footer/>
+        {/* Mirar como terminar de hacer el footer */}
+      {/* <Footer/> */}
     </Router>
     </div>
   )

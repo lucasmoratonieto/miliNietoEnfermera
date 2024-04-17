@@ -3,10 +3,10 @@
 
   /* For padding and margin in the footer. */
 
-  /* margin: 0 auto;
-  padding: 2rem; */
-  margin: 0 auto 0 auto;
-  padding: 2rem 2rem 0 2rem;
+  margin: 0 auto;
+  padding: 2rem;
+  /* margin: 0 auto 0 auto;
+  padding: 2rem 2rem 0 2rem; */
   text-align: center;
   
 }
