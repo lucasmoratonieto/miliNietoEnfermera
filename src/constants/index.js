@@ -20,7 +20,8 @@ export const navLinks = [
 
   export const contacts = [
     { href: "#", label: "Email", text:'nietodelacierva@gmail.com' },
-    { href: "#", label: "Teléfono", text: '+34 677551276' }
+    { href: "#", label: "Teléfono", text: '+34 677551276' },
+    { href: "https://www.instagram.com/milinietoenfermera?utm_medium", label: "Instagram", text: 'MiliNietoEnfermera' }
 
   ];
 
@@ -39,12 +40,14 @@ export const socialMedia = [
     {
         src: whatsApp,
         alt: 'WhatsApp Logo',
-        href: '#'
+        href: '#',
+        text: '+34 677551276'
     },
     {
         src:instagram,
         alt:'Instagram Logo',
-        href:'#'
+        href:'https://www.instagram.com/milinietoenfermera?utm_medium',
+        text: 'MiliNietoEnfermera'
     }
 ]
 

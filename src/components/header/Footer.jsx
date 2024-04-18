@@ -1,6 +1,6 @@
 
 import { navLinks } from '../../constants/index'
-import { contacts } from '../../constants/index'
+import { socialMedia } from '../../constants/index'
 import {miliLogo} from '../../assets/images/index'
 
 
@@ -22,7 +22,7 @@ function Footer() {
               ))}
         </div>
         <div className='flex-col flex-wrap'>
-          {contacts.map((contact) =>(
+          {socialMedia.map((contact) =>(
                 <li key={contact.href} className='flex w-98  '>
                   <a href={contact.href} key={contact.src}>
                     {contact.label}: {contact.text}
