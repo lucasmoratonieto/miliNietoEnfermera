@@ -1,7 +1,13 @@
-
 import {contacts, socialMedia} from '../constants/index'
+import { useState } from 'react'
 
 function Contact() {
+
+  const [menuSmall, setMenuSmall] = useState(false);
+  const toggleMenu = () => {
+    setMenuSmall(!menuSmall)
+  }
+
   return (
     <section id="contactos" className=' my-10'>
       <div className=' text-5xl font-montserrat mb-10'>
