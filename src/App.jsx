@@ -15,10 +15,10 @@ function App() {
   return (
     <div className=' '>
     <Router>
+          <Header/>
         <Routes>
           <Route exact path ='/miliNietoEnfermera'element={
             <>
-            <Header/>
             <Intro/>
             <Cards/>
             <WhoAmI/>

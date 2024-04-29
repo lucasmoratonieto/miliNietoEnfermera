@@ -1,11 +1,10 @@
-import HeaderNotPrincipal from "../../components/headerNotPrincipal/HeaderNotPrincipal"
+
 import {miliCholo} from "/Users/Lucas/OneDrive/Documentos/GitHub/miliNietoEnfermera/src/assets/images"
 import { masServicios } from "../../constants"
 
 function 	moreServices() {
   return (
     <section className="">
-      <HeaderNotPrincipal/>
       <div className="flex flex-col items-center mt-10 max-md:flex max-md:flex-col gap-4  pt-10  rounded-t-2xl max-sm:rounded-b-2xl ">
         <h1 className=" text-4xl font-bold font-montserrat">
           Servicios principales y a medida

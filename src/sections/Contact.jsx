@@ -10,11 +10,11 @@ function Contact() {
 
   return (
     <section id="contactos" className=' my-10'>
-      <div className=' text-5xl font-montserrat mb-10'>
+      <div className=' text-5xl  mb-10 font-montserrat'>
         Contacto
       </div>
-      <div className=' flex gap-10'>
-        <div className=' w-[50%] p-10 border rounded-3xl '>
+      <div className=' grid grid-cols-2 max-sm:grid-cols-1 gap-10 font-palanquin '>
+        <div className=' p-10 border rounded-3xl '>
           <div className='flex justify-center '>
             <p>Servicio en la comunidad de Madrid</p>
           </div>
@@ -41,7 +41,7 @@ function Contact() {
             ))}
           </div>
         </div>
-        <div className='flex w-[50%] p-10 justify-center border  rounded-3xl'>
+        <div className='flex  p-10 justify-center border  rounded-3xl'>
           Form of mail
         </div>
       </div>
