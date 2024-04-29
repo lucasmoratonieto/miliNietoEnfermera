@@ -3,7 +3,7 @@ import { miliDescription } from "../assets/images"
 function WhoAmI() {
   return (
     <section className="flex flex-row max-lg:flex-col items-center gap-10 ">
-      <div className=" my-10 max-lg:mt-7 max-lg:mb-0 bg-[#e8eff1] rounded-2xl">
+      <div className=" mt-10 max-lg:mt-7 max-lg:mb-0 bg-[#e8eff1] rounded-2xl">
           <h1 className=" text-5xl p-5 whitespace-nowrap font-montserrat">¿Quién soy?</h1>
           <div className=" m-10 text-start font-palanquin ">
               <p>Mi nombre es Emilia Nieto de la Cierva. Soy diplomada por la Universidad Pontificia de Comillas y miembro del Colegio de Enfermería de Madrid. </p><br />

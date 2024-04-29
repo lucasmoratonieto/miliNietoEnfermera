@@ -9,13 +9,13 @@ import{
 } from "../assets/icons";
 
 export const navLinks = [
-    { href: "/miliNietoEnfermera#inicio", label: "Inicio" },
-    { href: "/miliNietoEnfermera#precio", label: "Precio" },
-    { href: "/miliNietoEnfermera#servicios", label: "Servicios" },
-    { href: "/miliNietoEnfermera#porqueMili", label: "¿Por qué Mili?" },
-    { href: "/miliNietoEnfermera#resultados", label: "Resultados" },
-    { href: "/miliNietoEnfermera#contactos", label: "Contactos" },
-    { href: "/miliNietoEnfermera#whatsApp", label: "+34 677551276" },
+    { href: "/miliNietoEnfermera/#inicio", label: "Inicio" },
+    { href: "/miliNietoEnfermera/#precio", label: "Precio" },
+    { href: "/miliNietoEnfermera/#servicios", label: "Servicios" },
+    { href: "/miliNietoEnfermera/#porqueMili", label: "¿Por qué Mili?" },
+    { href: "/miliNietoEnfermera/#resultados", label: "Resultados" },
+    { href: "/miliNietoEnfermera/#contactos", label: "Contactos" },
+    { href: "/miliNietoEnfermera/#whatsApp", label: "+34 677551276" },
   ];
 
   export const contacts = [
@@ -153,6 +153,32 @@ export const masServicios =[
         text: 'Valoración, cura y seguimiento de heridas quirúrgicas, retirada de puntos y drenajes.',
 
     },
+
+    
+]
+
+
+
+export const emailForm =[
+    {
+
+        id: 'message',
+        name:'message',
+        placeholder:'Mensaje',
+        prefix:'Message',
+        field:'message',
+
+    },
+    {
+
+        id: 'telephone',
+        name:'telephone',
+        placeholder:'Teléfono',
+        prefix:'Telephone',
+        field:'telephone',
+
+    },
+    
 
     
 ]

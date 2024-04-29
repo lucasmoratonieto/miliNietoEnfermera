@@ -7,7 +7,7 @@ function Cuidados() {
         {name:'Leer más', href:'/miliNietoEnfermera/MoreServices',current:false}
     ]
   return (
-    <section id="servicios" className=" flex flex-col my-10 gap-10 items-center font-palanquin">
+    <section id="servicios" className=" flex flex-col mb-10 gap-10 items-center font-palanquin pt-20">
         <h1 className=" text-5xl font-montserrat">¿Qué tipo de cuidados hago?</h1>
         <p className=" w-[44%] text-xl max-sm:w-[90%]">La clave es que nos adaptamos a cada paciente, en este apartado pongo los principales pero no dudes en preguntarnos, si lo que buscas no esta aquí</p>
         <ul className=" gap-5 grid grid-cols-5 max-xl:grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 max-lg:items-center ">

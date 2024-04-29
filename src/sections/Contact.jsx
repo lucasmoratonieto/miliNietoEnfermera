@@ -1,5 +1,6 @@
 import {contacts, socialMedia} from '../constants/index'
 import { useState } from 'react'
+import EmailForm from '../components/emailForm/EmailForm'
 
 function Contact() {
 
@@ -9,8 +10,8 @@ function Contact() {
   }
 
   return (
-    <section id="contactos" className=' my-10'>
-      <div className=' text-5xl  mb-10 font-montserrat'>
+    <section id="contactos" className=' mb-10'>
+      <div className=' text-5xl  mb-10 font-montserrat pt-20'>
         Contacto
       </div>
       <div className=' grid grid-cols-2 max-sm:grid-cols-1 gap-10 font-palanquin '>
@@ -42,7 +43,7 @@ function Contact() {
           </div>
         </div>
         <div className='flex  p-10 justify-center border  rounded-3xl'>
-          Form of mail
+          <EmailForm/>
         </div>
       </div>
     </section>
