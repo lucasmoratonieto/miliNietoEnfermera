@@ -33,7 +33,8 @@ function Header() {
         </div>
 
 
-      <div className= {`flex ${smallHeader ? 'absolute flex-col gap-5 right-5 z-10 bg-slate-50 pt-[1.25rem] pb-16 px-5   rounded-3xl shadow-3xl  ':''} `}>
+      <div className= {`flex ${smallHeader ? ' absolute flex-col gap-5 right-5 z-10 bg-slate-50 pt-[1.25rem] pb-16 px-5 w-56 h-80 rounded-3xl shadow-3xl lg:hidden':''} `}>
+
         {/* Hambuguer */}
 
           <div className={`flex lg:hidden ${smallHeader ? 'flex-col items-end':'mr-10'}`}>
