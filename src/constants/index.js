@@ -10,7 +10,7 @@ import{
 
 export const navLinks = [
     { href: "/miliNietoEnfermera/#inicio", label: "Inicio" },
-    { href: "/miliNietoEnfermera/#precio", label: "Precio" },
+    { href: "/miliNietoEnfermera/Price", label: "Precio" },
     { href: "/miliNietoEnfermera/#servicios", label: "Servicios" },
     { href: "/miliNietoEnfermera/#porqueMili", label: "¿Por qué Mili?" },
     { href: "/miliNietoEnfermera/#resultados", label: "Resultados" },
@@ -181,4 +181,69 @@ export const emailForm =[
     
 
     
+]
+
+
+
+
+export const priceInfo =[
+    {
+
+        title:"Visita domiciliaria (Madrid capital): ",
+        text:"50€. Otras zonas consultar."
+
+    },
+    {
+
+        title:"Vacunas (niños/adultos): ",
+        text:"25€."
+
+    },
+    {
+
+        title:"PCR: ",
+        text:"100€."
+
+    },
+    {
+
+        title:"Test Prenatal en sangre Materna (neoBona®): ",
+        text:"500€/650€."
+
+    },
+    {
+
+        title:"Analíticas a Domicilio: ",
+        text:"Con sociedades sólo se cobra el desplazamiento."
+
+    },
+
+]
+
+export const ContpriceInfo =[
+    {
+
+        text:"Bono 5 visitas",
+        price: "200€"
+
+    },
+    {
+
+        text:"Vacunas",
+        price: "25€ por vacuna"
+
+    },
+
+]
+
+
+export const analiticasPriceInfo =[
+    {
+
+        text:"Analíticas",
+        price: "De sociedades (sanitas, adeslas,aegon,etc...)",
+        price2: "50€.... (desplazamiento de extracción y entrega de muestras al laboratorio)",
+        price3: "Privadas precio en función de las determinaciones pedidas"
+
+    },
 ]

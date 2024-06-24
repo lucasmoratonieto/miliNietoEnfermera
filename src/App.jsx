@@ -8,6 +8,7 @@ import Cuidados from './sections/Cuidados'
 import Reviews from './sections/Reviews'
 import Contact from './sections/Contact'
 import MoreServices from './pages/MoreServices/MoreServices'
+import Price from './pages/Price/Price'
 import Footer from './components/header/Footer'
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
             <Contact/>
           </>
           }/>
+          <Route path='/miliNietoEnfermera/Price' element={<Price/>} />
           <Route path='/miliNietoEnfermera/MoreServices' element={<MoreServices/>} />
           
         </Routes>

@@ -12,6 +12,7 @@ function Header() {
   }
 
 
+
   return (
     <header className='flex justify-center font-palanquin  sticky top-0 z-20 bg-white  ' >
       <div className='flex ml-0 m-auto items-center h-20'>

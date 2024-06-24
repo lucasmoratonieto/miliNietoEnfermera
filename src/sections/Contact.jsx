@@ -11,7 +11,7 @@ function Contact() {
 
   return (
     <section id="contactos" className=' mb-10'>
-      <div className=' text-5xl  mb-10 font-montserrat pt-20'>
+      <div className=' text-4xl  mb-10 font-montserrat pt-10'>
         Contacto
       </div>
       <div className=' grid grid-cols-2 max-sm:grid-cols-1 gap-10 font-palanquin '>
