@@ -1,5 +1,5 @@
 
-import {miliCholo} from "/Users/Lucas/OneDrive/Documentos/GitHub/miliNietoEnfermera/src/assets/images"
+import {miliCholo} from "/Users/Lucas/OneDrive/Documentos/GitHub/miliNietoEnfermera/src/assets/images/index"
 import { masServicios } from "../../constants"
 
 function 	moreServices() {
