@@ -14,7 +14,6 @@ import Footer from './components/header/Footer'
 function App() {
 
   return (
-    <div className=' '>
     <Router>
       <main>
           <Header/>
@@ -37,7 +36,6 @@ function App() {
       {/* <Footer/> */}
     </main>
     </Router>
-    </div>
   )
 }
 
