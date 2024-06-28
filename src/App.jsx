@@ -9,23 +9,36 @@ import Reviews from './sections/Reviews'
 import Contact from './sections/Contact'
 import MoreServices from './pages/MoreServices/MoreServices'
 import Price from './pages/Price/Price'
-import Footer from './components/header/Footer'
+// import Footer from './components/header/Footer'
 
 function App() {
 
   return (
+    <div className=' '>
     <Router>
       <main>
           <Header/>
         <Routes>
           <Route exact path ='/miliNietoEnfermera'element={
             <>
+            <section>
             <Intro/>
+            </section>
+            <section>
             <Cards/>
+            </section>
+            <section>
             <WhoAmI/>
+            </section>
+            <section>
             <Cuidados/>
+            </section>
+            <section>
             <Reviews/>
+            </section>
+            <section>
             <Contact/>
+            </section>
           </>
           }/>
           <Route path='/miliNietoEnfermera/Price' element={<Price/>} />
@@ -34,8 +47,9 @@ function App() {
         </Routes>
         {/* Mirar como terminar de hacer el footer */}
       {/* <Footer/> */}
-    </main>
+      </main>
     </Router>
+    </div>
   )
 }
 
