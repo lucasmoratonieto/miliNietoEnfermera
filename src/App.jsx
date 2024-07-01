@@ -39,8 +39,8 @@ function App() {
             <section>
             <Contact/>
             </section>
-          </>
-          }/> 
+          {/* </> */}
+          {/* }/>  */}
           <Route path='/miliNietoEnfermera/Price' element={<Price/>} />
           <Route path='/miliNietoEnfermera/MoreServices' element={<MoreServices/>} />
 {/*           
