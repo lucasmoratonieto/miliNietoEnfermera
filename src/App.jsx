@@ -16,7 +16,7 @@ function App() {
   return (
     <div className=' '>
     <Router basename="/miliNietoEnfermera">
-      <main>
+  
           <Header/>
         <Routes>
           <Route exact path ='/'element={
@@ -47,7 +47,7 @@ function App() {
         </Routes>
         {/* Mirar como terminar de hacer el footer */}
       {/* <Footer/> */}
-      </main>
+
     </Router>
     </div>
   )
