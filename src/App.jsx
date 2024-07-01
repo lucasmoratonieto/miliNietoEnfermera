@@ -15,11 +15,11 @@ function App() {
 
   return (
     <div className=' '>
-    <Router>
+    <Router basename="/miliNietoEnfermera">
       <main>
           <Header/>
         <Routes>
-          <Route exact path ='/miliNietoEnfermera'element={
+          <Route exact path ='/'element={
             <>
             <Intro/>
             <section>
@@ -41,8 +41,8 @@ function App() {
             </section>
           </>
           }/> 
-          <Route path='/miliNietoEnfermera/Price' element={<Price/>} />
-          <Route path='/miliNietoEnfermera/MoreServices' element={<MoreServices/>} />
+          <Route path='/Price' element={<Price/>} />
+          <Route path='/MoreServices' element={<MoreServices/>} />
           
         </Routes>
         {/* Mirar como terminar de hacer el footer */}
