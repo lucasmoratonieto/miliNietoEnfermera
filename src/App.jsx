@@ -18,11 +18,11 @@ function App() {
     <Router>
       <main>
           <Header/>
-          <Intro/>
         <Routes>
           <Route exact path ='/miliNietoEnfermera'element={
             <>
             <section>
+            <Intro/>
             </section>
             <section>
             <Cards/>
