@@ -19,7 +19,8 @@ function App() {
       <main>
           <Header/>
         <Routes>
-          <Route exact path ='/miliNietoEnfermera'element={
+          {/* <Route exact path ='/miliNietoEnfermera'element={ */}
+          <Route element={
             <>
             <section>
             <Intro/>
