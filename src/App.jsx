@@ -23,6 +23,7 @@ function App() {
             <>
             <Intro/>
             <section>
+              <Cards/>
             </section>
             <section>
             </section>
