@@ -25,7 +25,6 @@ function App() {
             <section>
             </section>
             <section>
-            <Cards/>
             </section>
             <section>
             <WhoAmI/>
