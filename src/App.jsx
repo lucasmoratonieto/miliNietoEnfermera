@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className=' '>
-    <Router>
+    {/* <Router> */}
       <main>
           <Header/>
         {/* <Routes>
@@ -41,14 +41,14 @@ function App() {
             </section>
           {/* </> */}
           {/* }/>  */}
-          <Route path='/miliNietoEnfermera/Price' element={<Price/>} />
-          <Route path='/miliNietoEnfermera/MoreServices' element={<MoreServices/>} />
+          {/* <Route path='/miliNietoEnfermera/Price' element={<Price/>} />
+          <Route path='/miliNietoEnfermera/MoreServices' element={<MoreServices/>} /> */}
 {/*           
         </Routes> */}
         {/* Mirar como terminar de hacer el footer */}
       {/* <Footer/> */}
       </main>
-    </Router>
+    {/* </Router> */}
     </div>
   )
 }
