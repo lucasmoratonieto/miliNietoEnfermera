@@ -18,9 +18,9 @@ function App() {
     <Router>
       <main>
           <Header/>
-        {/* <Routes>
+        <Routes>
           <Route exact path ='/miliNietoEnfermera'element={
-            <> */}
+            <>
             <section>
             <Intro/>
             </section>
@@ -39,12 +39,12 @@ function App() {
             <section>
             <Contact/>
             </section>
-          {/* </>
-          }/> */}
-          {/* <Route path='/miliNietoEnfermera/Price' element={<Price/>} />
+          </>
+          }/> 
+          <Route path='/miliNietoEnfermera/Price' element={<Price/>} />
           <Route path='/miliNietoEnfermera/MoreServices' element={<MoreServices/>} />
-           */}
-        {/* </Routes> */}
+          
+        </Routes>
         {/* Mirar como terminar de hacer el footer */}
       {/* <Footer/> */}
       </main>
