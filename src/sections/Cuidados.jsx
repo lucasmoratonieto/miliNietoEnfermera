@@ -4,7 +4,7 @@ import { cuidados } from "../constants"
 function Cuidados() {
     const navigation =[
         // {name:'Inicio', href:'/',current:true},
-        {name:'Leer más', href:'/miliNietoEnfermera/MoreServices',current:false}
+        {name:'Leer más', href:'./MoreServices',current:false}
     ]
   return (
     <section id="servicios" className=" flex flex-col mb-10 gap-10 items-center font-palanquin pt-20">
