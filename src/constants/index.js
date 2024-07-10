@@ -9,13 +9,13 @@ import{
 } from "../assets/icons";
 
 export const navLinks = [
-    { href: "/miliNietoEnfermera/#inicio", label: "Inicio" },
-    { href: "/miliNietoEnfermera/Price", label: "Precio" },
-    { href: "/miliNietoEnfermera/#servicios", label: "Servicios" },
-    { href: "/miliNietoEnfermera/#porqueMili", label: "¿Por qué Mili?" },
-    { href: "/miliNietoEnfermera/#resultados", label: "Resultados" },
-    { href: "/miliNietoEnfermera/#contactos", label: "Contactos" },
-    { href: "/miliNietoEnfermera/#whatsApp", label: "+34 677551276" },
+    { href: "./#inicio", label: "Inicio" },
+    { href: "./Price", label: "Precio" },
+    { href: "./#servicios", label: "Servicios" },
+    { href: "./#porqueMili", label: "¿Por qué Mili?" },
+    { href: "./#resultados", label: "Resultados" },
+    { href: "./#contactos", label: "Contactos" },
+    { href: "./#whatsApp", label: "+34 677551276" },
   ];
 
   export const contacts = [

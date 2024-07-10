@@ -14,8 +14,8 @@ import Price from './pages/Price/Price'
 function App() {
 
   return (
-    <div className=' '>
-    <Router basename="/miliNietoEnfermera">
+    <div className='Hui'>
+    <Router basename="/">
   
           <Header/>
         <Routes>
