@@ -9,6 +9,7 @@ import Reviews from './sections/Reviews'
 import Contact from './sections/Contact'
 import MoreServices from './pages/MoreServices/MoreServices'
 import Price from './pages/Price/Price'
+import Results from './pages/Results/Results'
 // import Footer from './components/header/Footer'
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
           }/> 
           <Route path='/Price' element={<Price/>} />
           <Route path='/MoreServices' element={<MoreServices/>} />
+          <Route path='/Results' element={<Results/>} />
           
         </Routes>
         {/* Mirar como terminar de hacer el footer */}

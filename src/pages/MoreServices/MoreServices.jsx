@@ -1,6 +1,7 @@
 
 import {miliCholo} from "../../assets/images/index"
 import { masServicios } from "../../constants"
+import Contact from "../../sections/Contact"
 
 function 	moreServices() {
   return (
@@ -28,6 +29,7 @@ function 	moreServices() {
             ))}          
         </div>
       </div>
+      <Contact/>
     </section>
   )
 }

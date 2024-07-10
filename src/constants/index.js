@@ -13,7 +13,7 @@ export const navLinks = [
     { href: "./Price", label: "Precio" },
     { href: "./#servicios", label: "Servicios" },
     { href: "./#porqueMili", label: "¿Por qué Mili?" },
-    { href: "./#resultados", label: "Resultados" },
+    { href: "./Results", label: "Resultados" },
     { href: "./#contactos", label: "Contactos" },
     { href: "./#whatsApp", label: "+34 677551276" },
   ];
@@ -169,6 +169,13 @@ export const emailForm =[
         field:'message',
 
     },
+  
+
+    
+]
+
+export const phone =[
+
     {
 
         id: 'telephone',
