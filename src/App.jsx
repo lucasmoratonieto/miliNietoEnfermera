@@ -15,7 +15,7 @@ import Results from './pages/Results/Results'
 function App() {
 
   return (
-    <div className='Hui'>
+    <div className=''>
     <Router basename="/">
   
           <Header/>

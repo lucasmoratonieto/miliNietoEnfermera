@@ -28,9 +28,12 @@ export const miliCholo = [
 
 ]
 
+
 import miliLogo from './miliNietoEnfermeraLogo.jpg'
+// import LogInSynLab from './LogInSynLab.jpg'
 
 export {
-    miliLogo
+    miliLogo,
+    
 }
 

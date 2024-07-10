@@ -26,14 +26,14 @@ function ContactForm() {
 
     {emailForm.map((emailForm) =>(
       <div className='flex mt-5 border rounded-xl p-2'>
-        <textarea id={emailForm.id} name={emailForm.name} placeholder={emailForm.placeholder}  rows="4" cols="50" ></textarea>
+        <textarea id={emailForm.id} name={emailForm.name} placeholder={emailForm.placeholder} className='h-36 w-96 max-sm:h-36 max-sm:w-64' ></textarea>
         <ValidationError prefix={emailForm.prefix} field={emailForm.field} errors={state.errors}></ValidationError>
       </div>
     ))}
 
   {phone.map((phonearea) =>(
       <div className='flex mt-5 border rounded-xl p-2'>
-        <textarea id={phonearea.id} name={phonearea.name} placeholder={phonearea.placeholder}  rows="" cols="50" className=' h-7' ></textarea>
+        <textarea id={phonearea.id} name={phonearea.name} placeholder={phonearea.placeholder}  className='max-sm:h-7 max-sm:w-64' ></textarea>
         <ValidationError prefix={phonearea.prefix} field={phonearea.field} errors={state.errors}></ValidationError>
       </div>
     ))}

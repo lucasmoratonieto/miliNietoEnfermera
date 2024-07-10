@@ -1,6 +1,9 @@
 
 // import {miliCholo} from "/Users/Lucas/OneDrive/Documentos/GitHub/miliNietoEnfermera/src/assets/images"
 import Contact from "../../sections/Contact"
+// import { LogInSynLab } from "../../assets/images"
+import images from '../../assets/images/images'
+
 
 
 function Results() {
@@ -25,6 +28,9 @@ function Results() {
               </a>
             </span>
         	</button>
+      <div className="flex justify-center ">
+       <img src={images.LogInSynLab} alt='first image' width={400} className=" "/>
+      </div>
           <p className=" mt-10">
             Si tiene cualquier tipo de problema, no dude en enviarme un email desde la sección de contactos
           </p>
