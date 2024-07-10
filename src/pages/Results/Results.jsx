@@ -1,9 +1,7 @@
 
 // import {miliCholo} from "/Users/Lucas/OneDrive/Documentos/GitHub/miliNietoEnfermera/src/assets/images"
 import Contact from "../../sections/Contact"
-import { priceInfo } from "../../constants"
-import { ContpriceInfo } from "../../constants"
-import { analiticasPriceInfo } from "../../constants"
+
 
 function Results() {
   return (
