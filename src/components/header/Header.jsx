@@ -16,7 +16,9 @@ function Header() {
   return (
     <header className='flex justify-center font-palanquin  sticky top-0 z-20 bg-white  ' >
       <div className='flex ml-0 m-auto items-center h-20'>
-        <img src={miliLogo} alt="Logo mili" width={50} className=' min-w-14 rounded-3xl'/>
+        <a href="./#inicio">
+          <img src={miliLogo} alt="Logo mili" width={50} className=' min-w-14 rounded-3xl'/>
+        </a>
       </div>
 
     
