@@ -40,7 +40,7 @@ export const socialMedia = [
     {
         src: whatsApp,
         alt: 'WhatsApp Logo',
-        href: '#',
+        href: 'https://wa.me/34677551276',
         text: '+34 677551276'
     },
     {

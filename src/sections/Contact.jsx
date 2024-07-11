@@ -14,8 +14,8 @@ function Contact() {
       <div className=' text-4xl  mb-10 font-montserrat pt-10'>
         Contacto
       </div>
-      <div className=' grid grid-cols-2 max-sm:grid-cols-1 gap-10 font-palanquin '>
-        <div className=' flex-col content-center p-10 border rounded-3xl '>
+      <div className=' grid grid-cols-2 max-sm:grid-cols-1 gap-10 font-palanquin text-lg '>
+        <div className=' flex-col content-center p-10 border rounded-3xl shadow-3xl '>
           <div className=' flex justify-center '>
             <p>Servicio en la comunidad de Madrid</p>
           </div>
@@ -27,7 +27,7 @@ function Contact() {
             ))}
 
           </div>
-          <div className=' flex justify-center mt-5 space-x-5'>
+          <div className=' flex justify-center mt-5 space-x-5 '>
             {socialMedia.map((contact) => (
               <div className='flex'>
                 <a href={contact.href} key={contact.label} target="_blank">
