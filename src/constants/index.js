@@ -15,12 +15,12 @@ export const navLinks = [
     { href: "./#porqueMili", label: "¿Por qué Mili?" },
     { href: "./Results", label: "Resultados" },
     { href: "./#contactos", label: "Contactos" },
-    { href: "./#whatsApp", label: "+34 677551276" },
+    { href: "https://wa.me/34677551276", label: "+34 677551276" },
   ];
 
   export const contacts = [
-    { href: "#", label: "Email", text:'nietodelacierva@gmail.com' },
-    { href: "#", label: "Teléfono", text: '+34 677551276' },
+    { href: "mailto: milinietoenfermera@gmail.com", label: "Email", text:'milinietoenfermera@gmail.com' },
+    { href: "tel:+34 677551276", label: "Teléfono", text: '+34 677551276' },
     { href: "https://www.instagram.com/milinietoenfermera?utm_medium", label: "Instagram", text: 'MiliNietoEnfermera' }
 
   ];
