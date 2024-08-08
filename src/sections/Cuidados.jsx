@@ -28,6 +28,7 @@ function Cuidados() {
                       <a
                         key={item.name}
                         href={item.href}
+                        className=" hover:underline hover:text-blue-300"
                       >
                         {item.name}
                       </a>
