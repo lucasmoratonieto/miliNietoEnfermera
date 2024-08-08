@@ -15,7 +15,7 @@ export const navLinks = [
     { href: "./#porqueMili", label: "¿Por qué Mili?" },
     { href: "./Results", label: "Resultados" },
     { href: "./#contactos", label: "Contactos" },
-    { href: "https://wa.me/34677551276", label: "+34 677551276" },
+    // { href: "https://wa.me/34677551276", label: "+34 677551276" },
   ];
 
   export const contacts = [
