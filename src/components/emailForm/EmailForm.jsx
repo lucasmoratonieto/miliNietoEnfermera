@@ -25,14 +25,14 @@ function ContactForm() {
       </div>
 
     {emailForm.map((emailForm) =>(
-      <div className='flex mt-5 border rounded-xl p-2'>
+      <div className='flex mt-5 border rounded-xl p-2m max-sm:w-60'>
         <textarea id={emailForm.id} name={emailForm.name} placeholder={emailForm.placeholder} className='h-24 w-96 max-sm:h-32 max-sm:w-64' ></textarea>
         <ValidationError prefix={emailForm.prefix} field={emailForm.field} errors={state.errors}></ValidationError>
       </div>
     ))}
 
   {phone.map((phonearea) =>(
-      <div className='flex mt-5 border rounded-xl p-2'>
+      <div className='flex mt-5 border rounded-xl p-2 max-sm:w-60'>
         <textarea id={phonearea.id} name={phonearea.name} placeholder={phonearea.placeholder}  className='h-7 w-96 max-sm:h-7 max-sm:w-64' ></textarea>
         <ValidationError prefix={phonearea.prefix} field={phonearea.field} errors={state.errors}></ValidationError>
       </div>
