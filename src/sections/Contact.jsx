@@ -41,7 +41,7 @@ function Contact() {
             ))}
           </div>
         </div>
-        <div className='flex  p-10 justify-center border  rounded-3xl
+        <div className='flex  p-10 justify-center border
         rounded-3xl shadow-3xl
         duration-1000 ease-in-out transfor hover:shadow-3xl hover:shadow-slate-500 hover:-translate-y-2 hover:translate-x-2'>
           <EmailForm/>
