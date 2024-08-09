@@ -200,12 +200,12 @@ export const priceInfo =[
         text:"50€. Otras zonas consultar."
 
     },
-    {
+    // {
 
-        title:"Vacunas (niños/adultos): ",
-        text:"25€."
+    //     title:"Vacunas (niños/adultos): ",
+    //     text:"25€."
 
-    },
+    // },
     {
 
         title:"PCR: ",
