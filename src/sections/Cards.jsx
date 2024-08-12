@@ -12,7 +12,7 @@ function Cards() {
         <ul className=" grid grid-cols-4 max-lg:grid-cols-2 max-sm:grid-cols-1 ">
             {cards.map((card, index) =>(
                 <li key={card.number} className={`${colors[index]} ${roundebBox[index]}  max-sm:rounded-2xl max-sm:mt-4 
-                duration-1000 ease-in-out transfor hover:shadow-3xl hover:shadow-slate-500 hover:-translate-y-2 `}>
+                duration-1000 ease-in-out transform hover:shadow-3xl hover:shadow-slate-500 hover:-translate-y-2 `}>
                     <div className={`p-5 flex flex-col `}>
                         <h1 className=" text-3xl font-bold p-2">{card.number}</h1>
                         <h2 className=" text-2xl p-5 h-32 flex items-center justify-center">{card.title}</h2>

@@ -27,7 +27,8 @@ function Header() {
             <ul className=" flex flex-row content-center justify-center items-center lg:gap-3 xl:gap-14 text-slate-700 ">
               {navLinks.map((navLink) =>(
                 <li key={navLink.href} className='flex w-[7.4rem] items-center '>
-                  <a href={navLink.href} key={navLinks.src} className=' rounded-2xl p-3 hover:bg-blue-100 hover:duration-1000'>
+                  <a href={navLink.href} key={navLinks.src} className=' rounded-2xl p-3 ease-in-out transform hover:bg-blue-100 
+                    duration-700 '>
                     {navLink.label}
                   </a>
                 </li>
