@@ -8,7 +8,7 @@ function Intro() {
         <div className=" z-10 relative align-middle justify-center sm:whitespace-nowrap text-gray-800">
             <h1 className=" text-9xl font-semibold font-Arial max-lg:text-8xl mb-10 max-md:mb-5 ">Mili Nieto</h1>
             <div className=''>
-              <h3 className=" text-3xl mb-10 max-md:mb-5 max-lg:text-2xl max-sm:mx-5">Tu Enfermera de Confianza a Domicilio.</h3>
+              <h3 className=" text-3xl mb-10 max-md:mb-5 max-lg:text-2xl max-sm:mx-5">Tu Enfermera a Domicilio de Confianza.</h3>
             </div>
         </div>
         <div className="relative">
