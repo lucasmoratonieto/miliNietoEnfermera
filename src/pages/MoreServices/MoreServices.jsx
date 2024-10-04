@@ -10,8 +10,8 @@ function 	moreServices() {
         <h1 className=" text-4xl font-bold font-montserrat">
           Servicios principales y a medida
         </h1>
-        <div className="flex mt-10 gap-5 items-center max-lg:flex-col">
-          <div className=" text-left bg-[#e8eff1] p-5 rounded-3xl gap-10 min-w-[500px]">
+        <div className="flex mt-10 gap-5 items-center max-lg:flex-col ">
+          <div className=" text-left bg-[#e8eff1] p-5 rounded-3xl gap-10 min-w-[300px]">
             <p className="m-5 text-2xl text-center">
             Cuidados contínuos, ocasionales o puntuales de enfermería profesional
             </p> 
