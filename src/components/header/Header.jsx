@@ -7,15 +7,20 @@ import { hamburguer } from '../../assets/icons';
 function Header() {
 
   const [smallHeader, setSmallHeader] = useState(false);
+  const [hamburguerCross, sethamburguerCross] = useState(true)
+
   const toggleHeader = () => {
     setSmallHeader(!smallHeader)
+    sethamburguerCross(!hamburguerCross)
   }
+
+  
 
 
 
   return (
     <header className='flex justify-center font-palanquin  sticky top-0 z-20 bg-white' >
-      <div className='flex ml-0 m-auto items-center h-20'>
+      <div className='flex ml-0 m-auto items-center h-20' onClick={toggleHeader}>
         <a href="./#inicio">
           <img src={miliLogo} alt="Logo mili" width={50} className=' min-w-14 rounded-3xl'/>
         </a>
@@ -41,15 +46,16 @@ function Header() {
 
         {/* Hambuguer */}
 
-          <div className={`flex lg:hidden ${smallHeader ? 'flex-col items-end':'mr-10'}`}>
-            {/* <button onClick={toggleHeader} className='flex flex-col w-12 h-12 border-0 bg-transparent gap-[.65rem] '>
-              <div className=' bg-black h-[2px] w-[100%] rounded-sm transition-all origin-left hover:rotate-45'> </div>
-              <div className=' bg-black h-[2px] w-[100%] rounded-sm transition-all origin-left hover:opacity-0'> </div>
-              <div className=' bg-black h-[2px] w-[100%] rounded-sm transition-all origin-left hover:-rotate-45'> </div>
-            </button> */}
-            <button onClick={toggleHeader} className=' w-10' >
-              <img   src={hamburguer} alt={hamburguer} />
+          <div className={`flex lg:hidden ${smallHeader  ? 'flex-col items-end -mt-5':'mr-10'}`}>
+            <button onClick={toggleHeader}  className='flex flex-col w-8 border-0 bg-transparent gap-[.5rem] rounded-sm mr-1 pt-7'>
+              <div className={` bg-black h-[2px] w-[100%] rounded-sm transition-all duration-1000 ${hamburguerCross ? '' : 'origin-left rotate-[40deg]'}`}> </div>
+              <div className={` bg-black h-[2px] w-[100%] rounded-sm transition-all duration-1000 ${hamburguerCross ? '' : 'origin-left w-0 opacity-0 '}`}> </div>
+              <div className={` bg-black h-[2px] w-[100%] rounded-sm transition-all duration-1000 ${hamburguerCross ? '' : 'origin-left -rotate-[40deg]'}`}> </div>
+
             </button>
+            {/* <button onClick={toggleHeader} className=' w-10' >
+              <img   src={hamburguer} alt={hamburguer} />
+            </button> */}
           </div>
 
         {/* header on small screen */}
@@ -64,7 +70,7 @@ function Header() {
                 ))}
               </ul>
           </div>
-          </div>
+      </div>
     </header>
   )
 }
