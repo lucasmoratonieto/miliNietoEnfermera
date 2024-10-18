@@ -9,7 +9,7 @@ import{
 } from "../assets/icons";
 
 export const navLinks = [
-    { href: "./#inicio", label: "Inicio" },
+    { href: "./", label: "Inicio" },
     { href: "./Price", label: "Precio" },
     { href: "./#servicios", label: "Servicios" },
     { href: "./#porqueMili", label: "¿Por qué Mili?" },
@@ -26,7 +26,7 @@ export const navLinks = [
   ];
 
   export const navLinksNotPrincipal = [
-    { href: "/miliNietoEnfermera#inicio", label: "Inicio" },
+    { href: "/miliNietoEnfermera", label: "Inicio" },
     { href: "/miliNietoEnfermera#precio", label: "Precio" },
     { href: "/miliNietoEnfermera#servicios", label: "Servicios" },
     { href: "/miliNietoEnfermera#porqueMili", label: "¿Por qué Mili?" },
@@ -41,13 +41,15 @@ export const socialMedia = [
         src: whatsApp,
         alt: 'WhatsApp Logo',
         href: 'https://wa.me/34677551276',
-        text: '+34 677551276'
+        text: '+34 677551276',
+        key: "watsApp"
     },
     {
         src:instagram,
         alt:'Instagram Logo',
         href:'https://www.instagram.com/milinietoenfermera?utm_medium',
-        text: 'MiliNietoEnfermera'
+        text: 'MiliNietoEnfermera',
+        key: "Instagram"
     }
 ]
 
