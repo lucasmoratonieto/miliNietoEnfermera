@@ -4,11 +4,6 @@ import EmailForm from '../components/emailForm/EmailForm'
 
 function Contact() {
 
-  const [menuSmall, setMenuSmall] = useState(false);
-  const toggleMenu = () => {
-    setMenuSmall(!menuSmall)
-  }
-
   return (
     <section id="contactos" className=' mb-10'>
       <div className=' text-4xl  mb-10 font-montserrat pt-10'>
@@ -21,20 +16,20 @@ function Contact() {
             <p>Servicio en la comunidad de Madrid</p>
           </div>
           <div className='flex flex-col'>
-            {contacts.map((conatct1)=> (
-              <a href={conatct1.href} key={conatct1.alt} target='_blank'>
-                {conatct1.label}: {conatct1.text} 
+            {contacts.map((contact)=> (
+              <a href={contact.href} key={contact.key} target='_blank'>
+                {contact.label}: {contact.text} 
               </a>
             ))}
 
           </div>
           <div className=' flex justify-center mt-5 space-x-5
            '>
-            {socialMedia.map((contact) => (
+            {socialMedia.map((eachSocialMedia) => (
               <div className='flex 
               '>
-                <a href={contact.href} key={contact.label} target="_blank">
-                  <img src={contact.src} alt={contact.alt} width={50} />
+                <a href={eachSocialMedia.href} key={eachSocialMedia.key} target="_blank">
+                  <img src={eachSocialMedia.src} alt={eachSocialMedia.alt} key={eachSocialMedia.key}  width={50} />
                 </a>
                   
               </div>

@@ -11,6 +11,7 @@ import MoreServices from './pages/MoreServices/MoreServices'
 import Price from './pages/Price/Price'
 import Results from './pages/Results/Results'
 // import Footer from './components/header/Footer'
+import Section from './efects'
 
 function App() {
 
@@ -27,18 +28,22 @@ function App() {
               <Cards/>
             </section>
             <section>
-            </section>
-            <section>
             <WhoAmI/>
             </section>
             <section>
-            <Cuidados/>
+              <Section>
+                <Cuidados/>
+              </Section>
             </section>
             <section>
-            <Reviews/>
+              <Section>
+                <Reviews/>
+              </Section>
             </section>
             <section>
-            <Contact/>
+              <Section>
+                <Contact/>
+              </Section>
             </section>
           </>
           }/> 

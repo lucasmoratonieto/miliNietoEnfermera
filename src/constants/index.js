@@ -19,9 +19,9 @@ export const navLinks = [
   ];
 
   export const contacts = [
-    { href: "mailto: milinietoenfermera@gmail.com", label: "Email", text:'milinietoenfermera@gmail.com' },
-    { href: "tel:+34 677551276", label: "Teléfono", text: '+34 677551276' },
-    { href: "https://www.instagram.com/milinietoenfermera?utm_medium", label: "Instagram", text: 'MiliNietoEnfermera' }
+    { href: "mailto: milinietoenfermera@gmail.com", label: "Email", text:'milinietoenfermera@gmail.com', key:"mail"},
+    { href: "tel:+34 677551276", label: "Teléfono", text: '+34 677551276', key:"phone" },
+    { href: "https://www.instagram.com/milinietoenfermera?utm_medium", label: "Instagram", text: 'MiliNietoEnfermera', key:"instagram" }
 
   ];
 
@@ -169,6 +169,7 @@ export const emailForm =[
         placeholder:'Mensaje',
         prefix:'Message',
         field:'message',
+        key:'emailform'
 
     },
   
@@ -185,6 +186,7 @@ export const phone =[
         placeholder:'Teléfono',
         prefix:'Telephone',
         field:'telephone',
+        key:"phone"
 
     },
     

@@ -9,7 +9,7 @@ function ContactForm() {
       return <p className='font-palanquin flex items-center'>Gracias por contactar conmigo. En breves me pondré en contacto con usted.</p>;
   }
   return (
-      <form onSubmit={handleSubmit} className='flex-col p-2 lg:w-60 max-md:w-56 max-sm:w-60' >
+      <form onSubmit={handleSubmit} className='flex-col p-2 lg:w-96 max-md:w-56 max-sm:w-60' >
         <div className='flex border rounded-xl p-2  '>
           <input
             id="email"
@@ -27,15 +27,15 @@ function ContactForm() {
         </div>
 
       {emailForm.map((emailForm) =>(
-        <div className='flex mt-5 border rounded-xl p-2'>
-          <textarea id={emailForm.id} name={emailForm.name} placeholder={emailForm.placeholder} className='h-24 w-96 max-sm:h-32' ></textarea>
+        <div className='flex mt-5 border rounded-xl p-2' key={emailForm.key}>
+          <textarea id={emailForm.id} name={emailForm.name} placeholder={emailForm.placeholder} className='h-24 w-[100%] max-sm:h-32' ></textarea>
           <ValidationError prefix={emailForm.prefix} field={emailForm.field} errors={state.errors}></ValidationError>
         </div>
       ))}
 
     {phone.map((phonearea) =>(
-        <div className='flex mt-5 border rounded-xl p-2 '>
-          <textarea id={phonearea.id} name={phonearea.name} placeholder={phonearea.placeholder}  className='h-7 w-96 max-sm:h-7' ></textarea>
+        <div className='flex mt-5 border rounded-xl p-2 ' key={phonearea.key}>
+          <textarea id={phonearea.id} name={phonearea.name} placeholder={phonearea.placeholder}  className='h-8 w-[100%]' ></textarea>
           <ValidationError prefix={phonearea.prefix} field={phonearea.field} errors={state.errors}></ValidationError>
         </div>
       ))}
