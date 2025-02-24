@@ -12,50 +12,54 @@ import Price from './pages/Price/Price'
 import Results from './pages/Results/Results'
 // import Footer from './components/header/Footer'
 import Section from './efects'
+import PoliticaPrivacidad from './pages/PoliticaPrivacidad/PoliticaPrivacidad'
+import AvisoLegal from './pages/AvisoLegal/AvisoLegal'
 
 function App() {
 
   return (
     <div >
-    <Router basename="/">
-  
-          <Header/>
+      <Router basename="/">
+
+        <Header />
         <Routes>
-          <Route exact path ='/'element={
+          <Route exact path='/' element={
             <>
-            <Intro/>
-            <section>
-              <Cards/>
-            </section>
-            <section>
-            <WhoAmI/>
-            </section>
-            <section>
-              <Section>
-                <Cuidados/>
-              </Section>
-            </section>
-            <section>
-              <Section>
-                <Reviews/>
-              </Section>
-            </section>
-            <section>
-              <Section>
-                <Contact/>
-              </Section>
-            </section>
-          </>
-          }/> 
-          <Route path='/Price' element={<Price/>} />
-          <Route path='/MoreServices' element={<MoreServices/>} />
-          <Route path='/Results' element={<Results/>} />
-          
+              <Intro />
+              <section>
+                <Cards />
+              </section>
+              <section>
+                <WhoAmI />
+              </section>
+              <section>
+                <Section>
+                  <Cuidados />
+                </Section>
+              </section>
+              <section>
+                <Section>
+                  <Reviews />
+                </Section>
+              </section>
+              <section>
+                <Section>
+                  <Contact />
+                </Section>
+              </section>
+            </>
+          } />
+          <Route path='/Price' element={<Price />} />
+          <Route path='/MoreServices' element={<MoreServices />} />
+          <Route path='/Results' element={<Results />} />
+          <Route path='/politica-de-privacidad' element={<PoliticaPrivacidad />} />
+          <Route path='/aviso-legal' element={<AvisoLegal />} />
+
         </Routes>
         {/* Mirar como terminar de hacer el footer */}
-      {/* <Footer/> */}
+        {/* <Footer/> */}
 
-    </Router>
+      </Router>
     </div>
   )
 }
